@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+     url(background\ langit.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 35px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: -75px;
+    cursor: pointer;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    margin-right: 100px;
+}
+.content h1{
+    color: #fff;
+    font-size: 70px;
+    text-shadow: -4px 4px 4px #000;
+}
+.color{
+    color: orangered;
+}
+.content p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+    text-shadow: -2px 2px 2px #000;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: blue;
+    margin-left: 120px;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
